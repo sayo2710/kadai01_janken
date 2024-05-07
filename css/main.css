@@ -1,0 +1,89 @@
+/* janken area */
+.my-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: rgb(254 226 226);
+  width: 50%;
+}
+
+.my-hand {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.other-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: rgb(186 230 253);
+  width: 50%;
+}
+
+.other-hand {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* button */
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-rock {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+.btn-rock:hover {
+  color: #fff;
+  background: #000;
+}
+
+.btn-scissors {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+.btn-scissors:hover {
+  color: #fff;
+  background: #000;
+}
+
+.btn-paper {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+.btn-paper:hover {
+  color: #fff;
+  background: #000;
+}
+
+.button-reset {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-reset {
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+.btn-reset:hover {
+  color: #fff;
+  background: #000;
+}
